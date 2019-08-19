@@ -130,3 +130,7 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for
   * Aurora Replicas: Separate aurora replicas (up to 15 replicas).
   * MySQL Read replicas: (up to 5 replicas).
   * In case of loss of the primary aurora DB, failover will automatically occur on the Aurora replica, it will not in the MySQL read replica.
+* Backups:
+  * Automated backups are enabled by default and do not impact DB performance.
+  * You can take snapshots with Aurora and does not impact performance. 
+  * You can share Snapshots with other AWS accounts. 
